@@ -1,0 +1,137 @@
+html, body {
+    width: 100%; 
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+   }
+
+.contenedorPrincipal{
+    position:fixed;
+   
+   
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+
+    /* position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid blue;
+    padding: 40px;
+    background-color: white; */
+}
+
+.contenedorSecundario{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    position: sticky;
+    top: 0px;
+    color: white;
+    font-size: 60px;
+    font-family: "Roboto", "sans-serif";
+    margin-top: 30px;
+}
+
+.contenedorForm{
+    margin-top:100px;
+    padding: 20px;
+
+}
+
+
+#email{
+    width: 450px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    background-color: #E9E9E9 !important;
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 80%);
+}
+
+
+#contraseña{
+    width: 450px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    
+    background-color: #E9E9E9 ;
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 80%);
+}
+
+.contenedorBotones{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#botonLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    
+    background-color: #0B19F2;
+    margin-bottom: 30px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 80%);
+}
+
+#botonOlvideContraseña{   
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    background-color: #B0ABA7  ;
+    margin-right: 30px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgb(0 0 0 / 80%);
+    border: none;
+}
+
+#botonRegistrarse{
+    width: 300px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    
+    background-color: #B0ABA7 ;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgb(0 0 0 / 80%);
+    border: none;
+}

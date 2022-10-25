@@ -1,0 +1,75 @@
+.containerPadre{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    background-color: #AFB2B7;
+    border-radius: 50px;
+    max-height: 100vh;
+}
+
+.tituloRegistrarse{
+    position: inherit;
+    color: white;
+    font-size: 45px;
+    font-family: Roboto, sans-serif;    
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.parametrosRec{
+    font-size: 22px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#formRec{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#filaRec{
+    padding: 0px;
+    margin: 0px;
+    width: 70%;
+}
+
+.botones{
+    display: flex;  
+    text-align: center;
+}
+
+.botonVolver{
+    font-size: 25px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.botonVolver{
+    font-size: 25px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.botonCrearCuenta{
+    font-size: 25px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}

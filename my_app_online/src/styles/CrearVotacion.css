@@ -1,0 +1,233 @@
+#contenedorPrincipalMisVotaciones{
+    background-color: red;
+    max-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+}
+
+#contenedorSecundarioMisVotaciones{
+    background: #E5E4E0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorSuperiorCrearVotacion{
+    background: #D7D8DA;
+    min-height: 25vh;
+    max-height: 25vh;
+    width: 100%;
+}
+
+#tituloVotacion{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'ROBOTO', sans-serif;
+}
+
+.titulosForm{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 10px;
+}
+
+.textosForm{ 
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 5px;
+    width: 80%;
+}
+
+#contenedorBotones{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.boton{
+    width: 15%;
+    padding: 5px;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'ROBOTO', sans-serif;
+}
+
+
+#contenedorVotacion{
+    background: black;
+    overflow-y: scroll;
+    width: 80%;
+    height: 65vh;
+    border-radius: 20px;
+    display: initial;
+    text-align: -webkit-center;
+    align-items: center;
+    margin: auto;
+}
+
+#contenedorForm{
+    background: #AFB2B7;
+    width: 60%;
+    height: 60vh;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#form{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.filas{
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+#filasFormCrear{
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+
+#filasFormCrear2{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.columnas{
+    padding: 0;
+    margin: 0;
+}
+
+#columnaTituloPreg{
+    
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    justify-content: end;
+}
+
+#inputPreg{
+    width: 95%;
+    margin-bottom: 15px;
+    font-size: 22px;
+    min-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#inputResp{
+    width: 95%;
+    font-size: 20px;
+    min-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+#iconoCerrar{
+    font-size: xx-large;
+    color: red;
+    cursor: pointer;
+}
+
+#contenedorRespuestas{
+    overflow-y: scroll;
+    background: #D7D8DA;
+    height: 100%;
+    max-height: 30vh;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#contenedorBotonesCrear{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#agregarRespCrear{
+    width: 40%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#agregarPregCrear{
+    width: 40%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#contenedorBotonFinal{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 10vh;
+    width: 50%;
+    margin: auto;
+    padding: 0px 10px;
+    border-radius: 30px;
+    
+    min-height: 10vh;
+}
+
+#botonFinal{
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    border-radius: 30px;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
