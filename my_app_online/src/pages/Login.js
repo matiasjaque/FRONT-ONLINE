@@ -84,7 +84,7 @@ function Login() {
                         setPassword(value);
                     }}/>
                 </Form.Group>
-                <Button id="botonLogin" variant="primary" type="submit">
+                <Button id="botonLogin" variant="primary" type="submit" onClick={() => alert(email, password)}>
                     Iniciar Sesión
                 </Button>
             </Form>
