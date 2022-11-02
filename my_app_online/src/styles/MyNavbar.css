@@ -18,7 +18,7 @@
 #titulo{
     display: flex;
     margin: 0px 15px;
-    min-width: 450px;
+    min-width: 420px;
     justify-content: center;
     border-radius: 20px;
     font-weight: bold;
@@ -38,7 +38,7 @@
 
 .botonesNavbar{
     cursor: pointer;
-    min-width: 240px;
+    min-width: 220px;
     text-align: center;
     font-weight: bold;
     font-size: 23px;
